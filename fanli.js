@@ -1,7 +1,7 @@
 (function () {
 
-    var serverUrl = "http://161sa70148.51mypc.cn/qifanli/test.php";
-    var userid = "mm_32249710";
+    var serverUrl = "http://www.7fanli.com/qifanli/test.php";
+    var userid = "mm_12760729";
 
     function getQueryString(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
