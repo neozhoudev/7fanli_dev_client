@@ -1,6 +1,7 @@
 (function () {
 
     var serverUrl = "http://www.7fanli.com/qifanli/test.php";
+
     var userid = "mm_12760729";
 
     function getQueryString(name) {
@@ -20,7 +21,7 @@
 
             sendServer(function (content, x) {
 
-                if (content != "" && content.indexOf("undefined") == -1 && content.indexOf("http") != -1 && content.indexOf("error") == -1) {
+                if (content != "" && content.indexOf("undefined") == -1 && content.indexOf("http") != -1 && content.indexOf("error") == -1 && typeof (content) != "undefined") {
 
                     location.href = content;
 
